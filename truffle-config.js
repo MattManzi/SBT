@@ -11,8 +11,9 @@ module.exports = {
       port: 8545
     },
     compilers:{
-      solo:{
-        version: "0.5.16",
+      solc:{
+        version: "^0.8.0",
+        docker: false,
       }
 
     }
